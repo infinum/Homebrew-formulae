@@ -3,7 +3,7 @@ class Polyglot < Formula
     homepage "https://github.com/infinum/iOS-Polyglot"
     #head "git@github.com:infinum/iOS-Polyglot.git", :using => :git
     url "https://github.com/infinum/Homebrew-formulae/blob/master/Sources/ios-polyglot.tar.gz"
-    sha256 "248ba2c4113b5820f952a4bf4fa11783127dab2e30d79221c5b469c0179bdd92"
+    sha256 "40d1a2381f08932c922a8c7ade892510b2ed0c2cb2bb73cebb89141c5737402d"
   
     def install
       system "swift", "build", "-c", "release", "-v", "--build-path=#{bin}", "--disable-sandbox"
