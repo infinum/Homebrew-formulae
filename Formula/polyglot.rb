@@ -2,7 +2,7 @@ class Polyglot < Formula
     desc "Infinum's polyglot tool for iOS"
     homepage "https://github.com/infinum/iOS-Polyglot"
     #head "git@github.com:infinum/iOS-Polyglot.git", :using => :git
-    url "https://github.com/infinum/iOS-Polyglot/archive/v1.0.tar.gz"
+    url "https://github.com/infinum/Homebrew-formulae/blob/master/Sources/iOS-Polyglot-1.0.tar.gz"
     sha256 "52dd570c30dd3835ae1ff092fc6315e4846f919e1c53862ba37a7da8ce66d909"
   
     def install
