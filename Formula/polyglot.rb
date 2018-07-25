@@ -7,7 +7,7 @@ class Polyglot < Formula
   
     def install
       system "swift", "build", "-c", "release", "-v", "--build-path=#{bin}", "--disable-sandbox"
-      system "ln", "-s", "#{bin}/polyglot", "#{bin}/release/polyglot"
+      system "ln", "-s", "#{bin}/release/polyglot", "#{bin}/polyglot"
     end
   
     test do
